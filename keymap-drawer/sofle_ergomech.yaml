@@ -1,69 +1,7 @@
 layers:
-  default:
-  - ESCAPE
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: BT, h: '0'}
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - ''''
-  - LEFT SHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - ENTER
-  - MUTE
-  - LGUI
-  - REFRESH
-  - LALT
-  - CLCK
-  - SPACE
-  - BACKSPACE
-  - ENTER
-  - CAPS
-  - RALT
-  - RCTRL
-  - BT NXT
-  - RIGHT
-  - UP ARROW
-  - LEFT
-  - Ctl+ AC NEXT KEYBOARD LAYOUT SELECT
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', raise, TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, RIGHT
+      SHIFT, LCTRL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, MUTE, LGUI, REFRESH, LALT, CLCK, SPACE, BACKSPACE, ENTER, PAUSE, PREV, NEXT, BT NXT, RIGHT, UP
+      ARROW, LEFT, DOWN]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -141,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -206,7 +144,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - EP TOG
   - RGB HUD
   - RGB HUI
