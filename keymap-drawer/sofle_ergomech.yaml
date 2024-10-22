@@ -1,7 +1,6 @@
 layers:
   default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', raise, TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, RIGHT
-      SHIFT, LCTRL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, MUTE, LGUI, REFRESH, LALT, CLCK, SPACE, BACKSPACE, ENTER, PAUSE, PREV, NEXT, BT NXT, RIGHT, UP
-      ARROW, LEFT, DOWN]
+      SHIFT, LCTRL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, MUTE, LGUI, '', LALT, '', SPACE, BACKSPACE, ENTER, '', '', '', '', RIGHT, UP ARROW, LEFT, DOWN]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -124,9 +123,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - VOLUME DOWN
+  - VOLUME UP
   - A
   - B
   - C
@@ -197,6 +196,3 @@ layers:
   - C
   - D
   - E
-combos:
-- p: [36, 11]
-  k: BT NXT
