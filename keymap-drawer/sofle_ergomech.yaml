@@ -59,11 +59,11 @@ layers:
   - CAPS
   - RALT
   - RCTRL
-  - {t: BT, h: '0'}
+  - BT NXT
   - RIGHT
   - UP ARROW
   - LEFT
-  - DOWN
+  - Ctl+ AC NEXT KEYBOARD LAYOUT SELECT
   lower:
   - {t: ▽, type: trans}
   - F1
